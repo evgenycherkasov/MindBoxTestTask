@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32728.150
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBoxTestTask.GeometricFigures.Implementations", "MindBoxTestTask.GeometricFigures.Implementations\MindBoxTestTask.GeometricFigures.Implementations.csproj", "{AAB223A4-E64A-45F8-8DB1-0E13FDA4A216}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBoxTestTask.GeometricFigures.Interfaces", "MindBoxTestTask.GeometricFigures.Interfaces\MindBoxTestTask.GeometricFigures.Interfaces.csproj", "{3E45A164-4A6A-4549-A9F2-7A274DF80792}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBoxTestTask.GeometricFigures.Tests", "MindBoxTestTask.GeometricFigures.Tests\MindBoxTestTask.GeometricFigures.Tests.csproj", "{9A0C9C65-656D-40BD-BC26-727A38BCAB20}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAB223A4-E64A-45F8-8DB1-0E13FDA4A216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB223A4-E64A-45F8-8DB1-0E13FDA4A216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB223A4-E64A-45F8-8DB1-0E13FDA4A216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB223A4-E64A-45F8-8DB1-0E13FDA4A216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E45A164-4A6A-4549-A9F2-7A274DF80792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E45A164-4A6A-4549-A9F2-7A274DF80792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E45A164-4A6A-4549-A9F2-7A274DF80792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E45A164-4A6A-4549-A9F2-7A274DF80792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0C9C65-656D-40BD-BC26-727A38BCAB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0C9C65-656D-40BD-BC26-727A38BCAB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0C9C65-656D-40BD-BC26-727A38BCAB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0C9C65-656D-40BD-BC26-727A38BCAB20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
