@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<DefineConstants>$(DefineConstants);CONTRACTS_LIGHT_PRECONDITIONS;CONTRACTS_LIGHT_ASSERTS</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RuntimeContracts" Version="0.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MindBoxTestTask.GeometricFigures.Interfaces\MindBoxTestTask.GeometricFigures.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
